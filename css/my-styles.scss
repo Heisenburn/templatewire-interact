@@ -1,5 +1,3 @@
-
- 
 .about-me {
     p {
        
@@ -16,6 +14,17 @@
         margin-top: 16px;
         margin-bottom: 49px;
     }
+
+     
+    ul li::before {
+        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: #617EBA;; /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+    }
+    
 
 }
 
@@ -52,6 +61,51 @@
     color: #1E4042;
 }
 
+.servicesDetails{
+    h2{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #1E4042;
 
+    }
+
+    ul{
+        text-align: left;
+    }
+
+    li{
+         
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 16px 0;
+        color: #1E4042;
+
+    }
+    
+    ul li::before {
+        content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+        color: #617EBA;; /* Change the color */
+        font-weight: bold; /* If you want it to be bold */
+        display: inline-block; /* Needed to add space between the bullet and the text */
+        width: 1em; /* Also needed for space (tweak if needed) */
+        margin-left: -1em; /* Also needed for space (tweak if needed) */
+    }
+
+    span{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #1E4042;
+
+    }
+}
 
 
