@@ -4,7 +4,7 @@
   font-size: 20px;
   line-height: 24px;
   text-align: center;
-  color: #1E4042;
+  color: #1e4042;
 }
 
 .about-me p:nth-of-type(2) {
@@ -13,9 +13,9 @@
 }
 
 .about-me ul li::before {
-  content: "\2022";
+  content: '\2022';
   /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #617EBA;
+  color: #617eba;
   /* Change the color */
   font-weight: bold;
   /* If you want it to be bold */
@@ -36,9 +36,9 @@
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: #617EBA;
+  background: #617eba;
   -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
 .section-title {
@@ -50,7 +50,7 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  color: #1E4042;
+  color: #1e4042;
 }
 
 .servicesDetails h2 {
@@ -60,7 +60,7 @@
   line-height: 29px;
   text-align: center;
   text-transform: uppercase;
-  color: #1E4042;
+  color: #1e4042;
 }
 
 .servicesDetails ul {
@@ -73,13 +73,13 @@
   font-size: 20px;
   line-height: 24px;
   margin: 16px 0;
-  color: #1E4042;
+  color: #1e4042;
 }
 
 .servicesDetails ul li::before {
-  content: "\2022";
+  content: '\2022';
   /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #617EBA;
+  color: #617eba;
   /* Change the color */
   font-weight: bold;
   /* If you want it to be bold */
@@ -88,7 +88,6 @@
   width: 1em;
   /* Also needed for space (tweak if needed) */
   margin-left: -1em;
-  /* Also needed for space (tweak if needed) */
 }
 
 .servicesDetails span {
@@ -97,6 +96,6 @@
   font-size: 20px;
   line-height: 24px;
   text-transform: uppercase;
-  color: #1E4042;
+  color: #1e4042;
 }
 /*# sourceMappingURL=my-styles.css.map */
