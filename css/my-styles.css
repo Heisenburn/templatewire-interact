@@ -98,4 +98,81 @@
   text-transform: uppercase;
   color: #1e4042;
 }
-/*# sourceMappingURL=my-styles.css.map */
+
+.servicesDetails button {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: #617eba;
+  font-weight: 600;
+  width: 304px;
+  height: 42px;
+  font-size: 18px;
+  border: 2px solid #617eba;
+  border-radius: 10px;
+  outline: none;
+}
+.servicesDetails button:focus {
+  border: 2px solid #617eba;
+}
+.servicesDetails button:hover {
+	background-color:#617eba;
+}
+#footer h2{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	padding-right: 40px;
+	text-transform: none;
+	color: #1e4042;
+}
+
+#footer p{
+	font-size: 20px;
+}
+
+#footer .social-ico ul li {
+	display: inline-block;
+	margin-right: 30px ;
+}
+
+#footer .social-ico i.fa {
+	font-size: 30px;	
+	padding: 12px 0;
+	border-radius: 50%;
+	transition: all 0.3s;
+	color: #617eba;
+	margin-top:50px;
+}
+#footer .contact i{
+	font-size: 20px;	
+	color: #617eba;	
+	border-radius: 50%;
+	transition: all 0.3s; 
+	margin-left: 5px;
+	margin-right: 10px;	
+}
+
+#footer .contact .nip{
+	font-size: 16px;
+	color: #617eba;
+}
+
+#footer .info a{
+	font-size: 20px;	
+	text-decoration: none;
+	color:#888;
+}
+
+#footer .info ul li::before {
+	content: '\003E';
+	color: #617eba;
+	font-weight: bold;
+	display: inline-block;
+    font-size: 20px;
+    margin-right: 10px;	
+}
+
+
+
