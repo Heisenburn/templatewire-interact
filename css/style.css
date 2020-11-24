@@ -189,9 +189,9 @@ hr {
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
-  font-size: 15px;
-  font-weight: 500;
-  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 12px;
   transition: all 0.5s linear;
   border: 0;
 }
@@ -202,7 +202,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #6372ff;
+  background-color: #6372ff ;
 }
 .btn:active,
 .btn.active {
@@ -556,27 +556,28 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: rgba(255, 255, 255, 0.75);
+  background: white;
+  color:black;
 }
 #contact .section-title {
   margin-bottom: 40px;
 }
 #contact .section-title p {
-  font-size: 16px;
+  font-size: 20px;
 }
 #contact h2 {
-  color: #fff;
+  color: black;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
+  font-size: 24px;
 }
 #contact .section-title h2::after {
   position: absolute;
   content: '';
-  background: rgba(255, 255, 255, 0.3);
+  background:  linear-gradient(89.6deg, #617eba 0%, #b3c4e7 102.35%);
   height: 4px;
-  width: 60px;
+  width: 100px;
   bottom: 0;
   left: 30px;
 }
@@ -596,12 +597,13 @@ header .intro-text {
 }
 #contact .btn-custom {
   margin: 30px 0;
-  background: transparent;
-  border: 2px solid #fff;
+  background: #617eba;
+  border:3px solid  #617eba;
 }
 #contact .btn-custom:hover {
-  color: #1f386e;
+  color: #7593d3;
   background: #fff;
+  border:3px solid  #617eba;
 }
 label {
   font-size: 12px;
@@ -612,20 +614,26 @@ label {
 #contact .form-control {
   display: block;
   width: 100%;
-  padding: 6px 12px;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.42857143;
   color: #444;
   background-color: #fff;
   background-image: none;
-  border: 1px solid #ddd;
-  border-radius: 0;
+  border: 1px solid rgba(30, 64, 66, 0.5);
+  border-radius: 4px;
   -webkit-box-shadow: none;
   box-shadow: none;
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
+  min-width: 300px;
+  min-height: 30px;    
 }
+
+#contact textarea.form-control{
+	height: 350px;
+}
+
 #contact .form-control:focus {
   border-color: #999;
   outline: 0;
